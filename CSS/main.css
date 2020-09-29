@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
 @import "reset.css";
-@import "landing-page/header.css";
-@import "landing-page/top-jumbo.css";
-@import "landing-page/designby.css";
-@import "landing-page/colorcollection.css";
-@import "landing-page/blueprint.css";
-@import "landing-page/latest.css";
-@import "landing-page/footer.css";
+@import "./landing-page/header.css";
+@import "./landing-page/top-jumbo.css";
+@import "./landing-page/designby.css";
+@import "./landing-page/colorcollection.css";
+@import "./landing-page/blueprint.css";
+@import "./landing-page/latest.css";
+@import "./landing-page/footer.css";
 
 
 .container {
