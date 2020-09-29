@@ -1,0 +1,244 @@
+#top-jumbo {
+    padding: 0 0 400px;
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #ffffff 46%, #625ad8 77%, #1f9ce4 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #ffffff 46%,#625ad8 77%,#1f9ce4 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #ffffff 46%,#625ad8 77%,#1f9ce4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+#top-jumbo:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+#top-jumbo .left-side{
+    width: 50%;
+    display: inline-block;
+    float: left;
+}
+#top-jumbo .left-side .large-number{
+    font-size: 450px;
+    font-weight: 700;
+    opacity: .1;
+    color: #7339AB;
+    position: relative;
+    left: -33px;
+    top: 45px;
+    z-index: 1;
+}
+#top-jumbo .left-side .info-container h1 {
+    color: #7339AB;
+    font-size: 4.5rem;
+    position: relative;
+    top: -115px;
+    line-height: 1.1;
+    margin-bottom: -90px;
+}
+#top-jumbo .left-side .info-container p {
+    color: #aaacaf;
+    font-size: 27px;
+    line-height: 1.5;
+    margin-bottom: 35px;
+}
+#top-jumbo .left-side .info-container .email-area {
+    background: white;
+    border-radius: 35px;
+    font-size: 16px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 7px;
+    -webkit-box-shadow: 0px 17px 40px -10px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 17px 40px -10px rgba(0,0,0,0.3);
+    box-shadow: 0px 17px 40px -10px rgba(0,0,0,0.3);
+}
+#top-jumbo .left-side .info-container .email-area button{
+    background: #7339AB;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 35px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border: 0;
+}
+#top-jumbo .left-side .info-container .email-area input[type = "email"]{
+    background: white;
+    border: none;
+    width: 355px;
+    font-size: 16px;
+    color: #AAACAF;
+}
+#top-jumbo .left-side .info-container .email-area ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #AAACAF;
+    opacity: 1; /* Firefox */
+  }
+#top-jumbo .left-side .info-container .email-area .fas{
+    color: #7339AB;
+    position: relative;
+    margin-left: 15px;
+    margin-right: 5px;
+    font-size: 1.5rem;
+    top: 3px;
+    opacity: .3;
+}
+#top-jumbo .right-side{
+    width: 50%;
+    display: inline-block;
+    float: left;
+}
+#top-jumbo .right-side img{
+    transform: scaleX(-1);
+    padding-right: 100px;
+}
+/*Widescreen  */
+@media only screen and (max-width: 1215px) {
+	#top.jumbo {
+		padding: 0px 0px 300px;
+    }
+    #top.jumbo .left-side {
+		width: 60%;
+    }
+    #top-jumbo .left-side .large-number {
+        font-size: 250px;
+        
+    }
+    #top.jumbo .left-side .info-container p{
+        font-size: 1.2rem;
+    }
+    #top-jumbo .left-side .info-container h1 {
+        font-size: 3.5rem;
+    }
+    #top-jumbo .left-side .info-container .email-area {
+        width: 60%;
+    }
+    #top-jumbo .left-side .info-container .email-area .fas{
+        position: relative;
+        float: left;
+        top: 5px;
+        margin-left: 0;
+        width: 15%;
+        text-align: center;
+    }
+    #top-jumbo .left-side .info-container .email-area input[type = "email"]{
+        width: 50%;
+        float: left;
+        position: relative;
+        top: 10px;
+    }
+    #top-jumbo .left-side .info-container .email-area button{
+        padding: 10px 0px;
+        width: 25%;
+        float: right;
+    }
+    
+    #top-jumbo .right-side {
+        width: 40%;
+    }
+    #top-jumbo .right-side img {
+        position: relative;
+        top: 120px;
+        padding: 0px;
+        height: 500px;
+    }
+}
+/*Tablets */
+@media only screen and (max-width: 1023px) {
+	#top.jumbo {
+		padding: 0px 0px 300px;
+    }
+    #top.jumbo .left-side {
+		width: 60%;
+    }
+    #top-jumbo .left-side .large-number {
+        font-size: 250px;
+        
+    }
+    #top.jumbo .left-side .info-container p{
+        font-size: 1.2rem;
+    }
+    #top-jumbo .left-side .info-container h1 {
+        font-size: 3.5rem;
+    }
+    #top-jumbo .left-side .info-container .email-area {
+        width: 100%;
+    }
+    #top-jumbo .left-side .info-container .email-area .fas{
+        position: relative;
+        float: left;
+        top: 5px;
+        margin-left: 0;
+        width: 15%;
+        text-align: center;
+    }
+    #top-jumbo .left-side .info-container .email-area input[type = "email"]{
+        width: 50%;
+        float: left;
+        position: relative;
+        top: 10px;
+    }
+    #top-jumbo .left-side .info-container .email-area button{
+        padding: 10px 0px;
+        width: 25%;
+        float: right;
+    }
+    
+    #top-jumbo .right-side {
+        width: 40%;
+    }
+    #top-jumbo .right-side img {
+        position: relative;
+        top: 120px;
+        padding: 0px;
+        height: 500px;
+    }
+}
+/*Mobile */
+@media only screen and (max-width: 767px) {
+    #top-jumbo {
+		padding: 0px 0px 100px;
+    }
+	#top-jumbo .left-side {
+		width: 100%;
+    }
+    #top-jumbo .left-side .large-number {
+        font-size: 250px;
+        
+    }
+    #top-jumbo .left-side .info-container p{
+        font-size: 1.2rem;
+    }
+    #top-jumbo .left-side .info-container h1 {
+        font-size: 3.5rem;
+    }
+    #top-jumbo .left-side .info-container .email-area {
+        width:50%;
+    }
+    #top-jumbo .left-side .info-container .email-area .fas{
+        position: relative;
+        float: left;
+        top: 5px;
+        margin-left: 0;
+        width: 15%;
+        text-align: center;
+    }
+    #top-jumbo .left-side .info-container .email-area input[type = "email"]{
+        width: 50%;
+        float: left;
+        position: relative;
+        top: 10px;
+    }
+    #top-jumbo .left-side .info-container .email-area button{
+        padding: 10px 0px;
+        width: 25%;
+        float: right;
+    }
+    
+    #top-jumbo .right-side {
+        width: 100%;
+    }
+    #top-jumbo .right-side img {
+        position: relative;
+        top: 0px;
+        padding: 0px;
+        height: 400px;
+    }
+}

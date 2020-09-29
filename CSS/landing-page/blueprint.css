@@ -1,0 +1,161 @@
+#blueprint {
+    background: #1f9ce4; /* Old browsers */
+    background: -moz-linear-gradient(45deg, #1f9ce4 0%, #7339ab 49%, #7339ab 49%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, #1f9ce4 0%,#7339ab 49%,#7339ab 49%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, #1f9ce4 0%,#7339ab 49%,#7339ab 49%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    color: white;
+}
+#blueprint .blueprint-container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#blueprint .left-side{
+    width: 60%;
+    float: left;
+}
+#blueprint .left-side img{
+    width: 100%;
+}
+#blueprint .right-side{
+    width: 40%;
+    float: left;
+}
+#blueprint .right-side h1{
+    font-size: 4.5rem;
+    font-weight: 700;
+    margin-bottom: 70px;
+    line-height: 1.2;
+}
+#blueprint .right-side .info-box{
+    padding: 0 0 80px;
+}
+#blueprint .right-side .info-box:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+#blueprint .right-side .info-box .col-1{
+    width: 40%;
+    float: left;
+}
+#blueprint .right-side .info-box .col-2{
+    width: 60%;
+    float: left;
+}
+#blueprint .right-side .info-box .col-1 .icon-container{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin: 0 auto;
+    position: relative;
+}
+#blueprint .right-side .info-box .col-1 .icon-container .dashed-circle{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px dashed white;
+    margin: 0 auto;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+#blueprint .right-side .info-box .col-1 .icon-container .fab,
+#blueprint .right-side .info-box .col-1 .icon-container .fas{
+    font-size: 5rem;
+    position: absolute;
+    left: 31px;
+    top: 20px;
+}
+#blueprint .right-side .info-box .col-2 h3{
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#blueprint .right-side .info-box .col-2 p{
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+#blueprint .right-side .info-box .col-2 a{
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-bottom: 15px;
+    color: orange;
+}
+/*Widescreen  */
+@media only screen and (max-width: 1215px) {
+	body {
+	}
+}
+/*Tablets */
+@media only screen and (max-width: 1023px) {
+	#blueprint {
+        padding: 10px;
+    }
+    #blueprint .right-side h1 {
+        text-align: left;
+        font-size: 4rem;
+    }
+    #blueprint img {
+        margin-top: 150px;
+        width: 100%;
+    }
+	#blueprint .left-side {
+        width: 40%;
+    }
+    #blueprint .right-side {
+        width: 60%;
+    }
+    #blueprint .right-side .info-box .col-1 .icon-container{
+        height: 120px;
+        width: 120px;
+        margin: 20px auto 0;
+    }
+    #blueprint .right-side .info-box .col-1 .icon-container .dashed-circle{
+        height: 90px;
+        width: 90px;
+    }
+    #blueprint .right-side .info-box .col-1 .icon-container .fas,
+    #blueprint .right-side .info-box .col-1 .icon-container .fab {
+        font-size: 3.5rem;
+        top: 15px;
+        left: 25px;
+    }
+}
+/*Mobile */
+@media only screen and (max-width: 767px) {
+    #blueprint {
+        padding: 10px;
+    }
+    #blueprint .right-side h1 {
+        font-size: 3rem;
+        text-align: center;
+    }
+    #blueprint img {
+        display: none;
+    }
+	#blueprint .left-side {
+        width: 100%;
+    }
+    #blueprint .right-side {
+        width: 100%;
+    }
+    #blueprint .right-side .info-box .col-1 .icon-container{
+        height: 120px;
+        width: 120px;
+        margin: 20px auto 0;
+    }
+    #blueprint .right-side .info-box .col-1 .icon-container .dashed-circle{
+        height: 90px;
+        width: 90px;
+    }
+    #blueprint .right-side .info-box .col-1 .icon-container .fas,
+    #blueprint .right-side .info-box .col-1 .icon-container .fab {
+        font-size: 3.5rem;
+        top: 15px;
+        left: 25px;
+    }
+
+}

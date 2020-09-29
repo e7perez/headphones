@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+@import "reset.css";
+@import "landing-page/header.css";
+@import "landing-page/top-jumbo.css";
+@import "landing-page/designby.css";
+@import "landing-page/colorcollection.css";
+@import "landing-page/blueprint.css";
+@import "landing-page/latest.css";
+@import "landing-page/footer.css";
+
+
+.container {
+	max-width: 1400px;
+    margin: 0 auto;
+	border-radius: 5px;
+	box-shadow: 0px 17px 40px -10px rgba(0,0,0,0.3);
+}
+.color-container {
+	max-width: 1400px;
+    margin: 0 auto;
+}
+.blueprint-container {
+	max-width: 1400px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+.latest-container {
+	max-width: 1400px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+.footer-container {
+	max-width: 1400px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+.container-fluid {
+	margin: 0 5%;
+	padding: 0 20px;
+}
